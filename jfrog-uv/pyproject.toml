@@ -1,0 +1,11 @@
+[project]
+name = "jfrog-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[[tool.uv.index]]
+name = "artifactory"
+url = "https://artifactory.mycompany.com/artifactory/api/pypi/<repo>/simple"
